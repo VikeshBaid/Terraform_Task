@@ -16,7 +16,7 @@ In this task, I have created a EC2 Instance, Key Pair, and Security Group for EC
 
 In this task, I have created a EC2 Instance, Key Pair, and Security Group for EC2 Instance. The security group only allow ssh and http connction to the EC2 Instance. A null instance is also created whch is used to congifure the EC2 Instance to run webserver. An external EFS storage (uses NFS protocol) is also attached to EC2 Instance. This will works as Persistent Storage, data present in this EFS storage will not be deleted after Instance is deleted or crashed. A S3-Bucket is created which will store static file. To use this image in our webpage I am using CloudFront. Cloud Front provides a universl url for the image. 
 
-### AWS services used in Task 1
+### AWS services used in Task 2
 1. EC2 Instance
 2. External EFS Storage (For Persistent Storage)
 3. Security Group (Sub Service of EC2 Instance)
@@ -64,7 +64,7 @@ Both Exposing a port and patting are the concepts of Docker.
 
 I have also used NAT Gateway, using which we can connect the Instances running in Private Subnet to the Internet. That's why docker can be downloaded on MySQL Instance as it uses the yum repository to fetch the code of docker from the Internet. Elastic IP is used in NAT Gateway. 
 
-### AWS service used in Task 3
+### AWS service used in Task 4
 1. VPC
 2. EC2 Instance
 3. Security Groups (Sub Service of EC2 Instance)
@@ -74,7 +74,7 @@ I have also used NAT Gateway, using which we can connect the Instances running i
 7. NAT Gateway (Sub Service of VPC)
 8. Elastic IP (Sub Service of VPC)
 
-### Extra software  needed in Task 3
+### Extra software  needed in Task 4
 1. Docker
 
 
