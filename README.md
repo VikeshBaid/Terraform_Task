@@ -77,8 +77,16 @@ I have also used NAT Gateway, using which we can connect the Instances running i
 ### Extra software  needed in Task 4
 1. Docker
 
+## Task 6 - Integration of Kubernetes and RDS
 
+In this task i have used minikube for deploying kubernetes cluster. In this cluster pod has a wordpress application running. Wordpress uses a database server for storing it's data. For this I have deployed a database using RDS(Relation Database Service) of AWS cloud. Since pod uses a docker image, I have used wordpress:4.8-apache image from docker hub. And in RDS i have used MySQL engine version 5.7.30. Also used security group which helps to let request come to MySQL engine. Default security group will not work here as it accespts the connectino from a machine where the default security is attached.
 
+### Kubernetes Software
+1. Minikube
+
+### AWS services used
+1. RDS
+2. Security Groups
 
 
 
